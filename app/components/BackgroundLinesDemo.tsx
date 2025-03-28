@@ -38,6 +38,7 @@ const ProjectsComponent = () => {
     { id: 1, name: "Project 1", url: "https://rew-websocket-chat-app.vercel.app/" },
     { id: 2, name: "Project 2", url: "https://doctor-consultation-eight.vercel.app" },
     { id: 3, name: "Project 3", url: "https://msir.vercel.app" },
+    {id:4, name: "Project 4", url: "https://saichandra-1.github.io/zerodha-landingpage/"}
   ];
 
   return (
