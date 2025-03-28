@@ -2,3 +2,6 @@
 
 
 
+html {
+    scroll-behavior: smooth;
+  }
