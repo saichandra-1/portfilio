@@ -4,7 +4,7 @@ import { Name } from "./Name";
 
 export function Gridbackground() {
   return (
-    <div className="relative flex min-h-screen w-full items-center justify-start bg-white dark:bg-black overflow-hidden">
+    <div className="relative flex min-h-screen w-screen items-center justify-start bg-white dark:bg-black overflow-hidden">
       <div
         className={cn(
           "absolute inset-0",

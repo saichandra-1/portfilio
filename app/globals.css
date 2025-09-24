@@ -4,9 +4,18 @@
 
 html {
     scroll-behavior: smooth;
+    width: 100%;
   }
 
 /* Prevent horizontal scroll on small screens */
 body {
   overflow-x: hidden;
+  width: 100%;
+  max-width: 100%;
+  background-color: #000;
+  color: #fff;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
 }
