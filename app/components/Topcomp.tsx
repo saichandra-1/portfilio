@@ -20,14 +20,14 @@ function RightNavBar({ activeSection }: RightNavBarProps) {
     { id: 'contact', label: 'Contact' },
   ];
 
-  return (
-    <nav className="fixed right-20 top-1/2 transform -translate-y-1/2 bg-transparent w-24 p-4 rounded-l-lg shadow-lg z-10">
+  return (  
+    <nav className="hidden md:block fixed right-6 lg:right-20 top-1/2 transform -translate-y-1/2 bg-transparent w-20 lg:w-24 p-2 lg:p-4 rounded-l-lg z-10">
       <ul className="space-y-10 text-center">
         {sections.map((section) => (
           <li key={section.id}>
             <a
               href={`#${section.id}`}
-              className={`block text-lg font-bold transition-colors ${
+              className={`block text-base lg:text-lg font-bold transition-colors ${
                 activeSection === section.id ? 'text-white' : 'text-gray-400'
               } hover:text-white`}
               aria-current={activeSection === section.id ? 'page' : undefined}

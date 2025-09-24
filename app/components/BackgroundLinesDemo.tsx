@@ -34,8 +34,10 @@ const ProjectsComponent = () => {
       {projects.map((project, index) => {
         const angle = (360 / projects.length) * index - 90;
         const radians = (angle * Math.PI) / 180;
-        const dotX = 192 + 192 * Math.cos(radians);
-        const dotY = 192 + 192 * Math.sin(radians);
+        const circleRadius = 192; // base radius of the orbit
+        const dotRadius = circleRadius; // dots sit on the circle
+        const dotX = 192 + dotRadius * Math.cos(radians);
+        const dotY = 192 + dotRadius * Math.sin(radians);
         return (
           <div
             key={project.id}
@@ -53,15 +55,24 @@ const ProjectsComponent = () => {
       {projects.map((project, index) => {
         const angle = (360 / projects.length) * index - 90;
         const radians = (angle * Math.PI) / 180;
-        const textX = 192 + 240 * Math.cos(radians);
-        const textY = 192 + 240 * Math.sin(radians);
+        const circleRadius = 192;
+        const baseGap = 64; // consistent gap between the dot and the pill
+        // Add a small extra offset on left/right to compensate for pill width,
+        // so perceived spacing matches top/bottom.
+        const cosine = Math.cos(radians);
+        const sine = Math.sin(radians);
+        const isHorizontal = Math.abs(cosine) > Math.abs(sine);
+        const extraGap = isHorizontal ? 12 : 0;
+        const textRadius = circleRadius + baseGap + extraGap;
+        const textX = 192 + textRadius * cosine;
+        const textY = 192 + textRadius * sine;
         return (
           <a
             key={project.id}
             href={project.url}
             target="_blank"
             rel="noopener noreferrer"
-            className="absolute  text-amber-600 z-30"
+            className="absolute text-amber-600 z-30"
             style={{
               left: `${textX}px`,
               top: `${textY}px`,
@@ -70,7 +81,7 @@ const ProjectsComponent = () => {
           >
           <button className="relative inline-flex h-12 overflow-hidden rounded-full p-[1px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">
         <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]" />
-        <span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full bg-slate-950 px-4 py-1 text-sm font-medium text-white backdrop-blur-3xl">
+        <span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full bg-slate-950 px-4 py-1 text-sm font-medium text-white backdrop-blur-3xl whitespace-nowrap">
           {project.name}
         </span>
       </button>

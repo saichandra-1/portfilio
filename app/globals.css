@@ -5,3 +5,8 @@
 html {
     scroll-behavior: smooth;
   }
+
+/* Prevent horizontal scroll on small screens */
+body {
+  overflow-x: hidden;
+}
