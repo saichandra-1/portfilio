@@ -5,6 +5,7 @@ const projects = [
   { title: "Doctor Consult", href: "https://doctor-consultation-eight.vercel.app", desc: "Appointment and consult flow." },
   { title: "MSIR", href: "https://msir.vercel.app", desc: "Landing and marketing site." },
   { title: "Zerodha Clone", href: "https://saichandra-1.github.io/zerodha-landingpage/", desc: "Landing page clone." },
+  { title: "ELEGANCE shopping site",href :"https://elegance-langingpage.vercel.app/",desc:"desi shopping app"},
 ];
 
 export default function Projects() {
