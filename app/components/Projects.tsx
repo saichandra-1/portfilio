@@ -6,6 +6,7 @@ const projects = [
   { title: "MSIR", href: "https://msir.vercel.app", desc: "Landing and marketing site." },
   { title: "Zerodha Clone", href: "https://saichandra-1.github.io/zerodha-landingpage/", desc: "Landing page clone." },
   { title: "ELEGANCE shopping site",href :"https://elegance-langingpage.vercel.app/",desc:"desi shopping app"},
+  { title: "AI chat bot ",href :"https://chat-bot-rho-self.vercel.app/",desc:"A AI chat bot with open ai model"},
 ];
 
 export default function Projects() {
