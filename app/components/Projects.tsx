@@ -7,6 +7,7 @@ const projects = [
   { title: "Zerodha Clone", href: "https://saichandra-1.github.io/zerodha-landingpage/", desc: "Landing page clone." },
   { title: "ELEGANCE shopping site",href :"https://elegance-langingpage.vercel.app/",desc:"desi shopping app"},
   { title: "AI chat bot ",href :"https://chat-bot-rho-self.vercel.app/",desc:"A AI chat bot with open ai model"},
+  { title: "Web 3.O wallet",href :"https://web-based-wallet-theta.vercel.app/",desc:"Web based WEB 3.O wallet"},
 ];
 
 export default function Projects() {
