@@ -8,6 +8,7 @@ const projects = [
   { title: "ELEGANCE shopping site",href :"https://elegance-langingpage.vercel.app/",desc:"desi shopping app"},
   { title: "AI chat bot ",href :"https://chat-bot-rho-self.vercel.app/",desc:"A AI chat bot with open ai model"},
   { title: "Web 3.O wallet",href :"https://web-based-wallet-theta.vercel.app/",desc:"Web based WEB 3.O wallet"},
+  { title: "Book loop",href :"https://book-loop-dun.vercel.app/",desc:"Book exchange and Reading circle system mad for book lovers"}  
 ];
 
 export default function Projects() {
