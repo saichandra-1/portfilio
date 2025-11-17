@@ -13,6 +13,7 @@ const projects = [
   { title: "Whiteboard Pro",href :"https://white-board-one-zeta.vercel.app/",desc:"A Space where you can create,manage,organize,prioritize all your work at one place"},
   { title: "Live YouTube comment analysis",href :"https://github.com/saichandra-1/live-YT-comment-analysis?tab=readme-ov-file#example-implementation",desc:"Live YT comment analysis by taking simple URL of the stream"},
   { title: "Real Time Brand Sentiment Analysis",href :"https://github.com/saichandra-1/Real-Time-Brand-Sentiment-Analysis-/blob/main/Implementation.md",desc:"A real time sentiment analysis of brand by taking real time data of different social platforms to get sentiment analysis"},
+  { title: "Stock Bubble",href :"https://stock-bubble.vercel.app/",desc:"A website similar to cryptobubbles.net but for NEFTY-50 stocks"},
 ];
 
 export default function Projects() {
