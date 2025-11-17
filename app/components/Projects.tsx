@@ -10,7 +10,9 @@ const projects = [
   { title: "Web 3.O wallet",href :"https://web-based-wallet-theta.vercel.app/",desc:"Web based WEB 3.O wallet"},
   { title: "Book loop",href :"https://book-loop-dun.vercel.app/",desc:"Book exchange and Reading circle system made for book lovers"},
   { title: "Step Wise",href :"https://step-wise-seven.vercel.app/",desc:"A shoes selling palrtfom for the peopel"},
-  { title: "Whiteboard Pro",href :"https://white-board-one-zeta.vercel.app/",desc:"A Space where you can create,manage,organize,prioritize all your work at one place"}
+  { title: "Whiteboard Pro",href :"https://white-board-one-zeta.vercel.app/",desc:"A Space where you can create,manage,organize,prioritize all your work at one place"},
+  { title: "Live YouTube comment analysis",href :"https://github.com/saichandra-1/live-YT-comment-analysis?tab=readme-ov-file#example-implementation",desc:"Live YT comment analysis by taking simple URL of the stream"},
+  { title: "Real Time Brand Sentiment Analysis",href :"https://github.com/saichandra-1/Real-Time-Brand-Sentiment-Analysis-/blob/main/Implementation.md",desc:"A real time sentiment analysis of brand by taking real time data of different social platforms to get sentiment analysis"},
 ];
 
 export default function Projects() {
