@@ -1,8 +1,8 @@
 import React from "react";
 
 const skills = [
-  "C","Java","HTML", "CSS", "JavaScript", "TypeScript", "React", "Next.js","Mono Repo","Turbo Repo",
-  "Node.js", "PostgreSQL", "Prisma", "Tailwind", "Git", "Docker","Mongo DB","AWS","DSA",
+  "C", "Java", "HTML", "CSS", "JavaScript", "TypeScript", "React", "Next.js", "Mono Repo", "Turbo Repo",
+  "Node.js", "PostgreSQL", "Prisma", "Tailwind", "Git", "Docker", "Mongo DB", "AWS", "DSA"
 ];
 
 export default function Skills() {
