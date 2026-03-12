@@ -1,9 +1,34 @@
 import React from "react";
 
+Based on everything across all your resumes and projects:
+
+
 const skills = [
-  "C", "Java", "HTML", "CSS", "JavaScript", "TypeScript", "React", "Next.js", "Mono Repo", "Turbo Repo",
-  "Node.js", "PostgreSQL", "Prisma", "Tailwind", "Git", "Docker", "Mongo DB", "AWS", "DSA"
+  // Languages
+  "C", "Java", "Python", "JavaScript", "TypeScript", "SQL",
+
+  // Frontend
+  "HTML", "CSS", "React", "Next.js", "Tailwind", "ShadCN", "Turbo Repo", "Mono Repo",
+
+  // Backend
+  "Node.js", "Express.js", "Hono", "REST API", "Microservices",
+
+  // Databases
+  "MongoDB", "PostgreSQL", "Prisma", "Redis", "NoSQL",
+
+  // DevOps & Cloud
+  "Git", "GitHub", "Docker", "Kubernetes", "AWS", "CI/CD", "GitOps", "Helm", "Ingress", "Prometheus",
+
+  // AI & ML
+  "TensorFlow", "Keras", "Scikit-learn", "OpenCV", "Pandas", "NumPy", "Transfer Learning",
+
+  // Core CS
+  "DSA", "OOP", "Operating Systems", "Computer Networks", "System Design", "Linux",
+
+  // Tools & Others
+  "Tableau", "n8n", "Jupyter Notebook", "Google Colab", "Bash",
 ];
+
 
 export default function Skills() {
   return (
