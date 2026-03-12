@@ -1,7 +1,5 @@
 import React from "react";
 
-Based on everything across all your resumes and projects:
-
 
 const skills = [
   // Languages
